@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3e3e3e);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: blue;
+}
+/* .nav-item a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+} */
+.carousel-caption h5{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.book-now-btn {
+    background-color: white;
+    padding: 10px 60px;
+    color: blue;
+}
+
+.precious{
+    margin-top: 100px;
+}
+.single-client{ 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    
+}
+
+/* .aboutus_sec1 h1{
+    padding-top: 200px;
+} */
+
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-item h1{
+    font-size: 48px;
+    font-weight: 600;
+  
+}
+
+.carousel-item p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  
+}
+.book-now-btn{
+    font-size: 16px;
+    font-weight: 700;
+  
+}
+.precious-details h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.precious-details p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.btn-primary:hover {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.package h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+}
+.package h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.package h4{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.package p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  
+}
+.package ul li{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.btn-secondary{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.review h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+}
+.single-client p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.single-client h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color:  #0C1920;
+}
+.single-client h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color:  #747474;
+}
+.faq h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.accordion-button p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #383838;
+}
+.accordion-body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7E848C;
+}
+/* End Home */
+
+
+/* Start About */
+.aboutus_sec1{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0)),url(../images/About_Us.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+.aboutus_sec1 h1{
+    padding-top: 220px;
+    font-size: 52px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.aboutus_sec1 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.aboutus_sec2 h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+}
+.aboutus_sec3 h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.aboutus_sec3 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.aboutus_sec4 h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+}
+/* End About */
+
+/* Start Contact */
+.contactus_sec1{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0)),url(../images/contactus2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+.contactus_sec1 h1{
+    padding-top: 220px;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 57px;
+    padding-bottom: 30px;
+}
+.contactus_sec1 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.contactus_sec3 h3{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+}
+.contactus_sec3 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+/* End Contact */
+
+/* Start Subscribe */
+.subscribe_sec1{
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0)),url(../images/Subscribeimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+.paralax{
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0)),url(../images/bride-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(141, 250, 250);
+    background-attachment: fixed;
+}
+.subscribe_sec1 h6{
+    padding-top: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.subscribe_sec1 h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.subscribe_sec2 h3{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.subscribe_sec2 h1{
+    font-size: 34px;
+    font-weight: 550;
+    line-height: 40px;
+}
+
+.subscribe_sec2 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.subscribe_sec3 h1{
+    font-size: 42px;
+    font-weight: 550;
+    line-height: 42px;
+}
+.subscribe_sec3 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+/* End Subscribe */
